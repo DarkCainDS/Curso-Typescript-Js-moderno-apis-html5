@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="main.js" defer></script>
+    <title>DRag And Drop JS</title>
+    <style>
+        body{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .tomate,.lechuga{
+            width: 50px;
+            height: 50px;
+            background-color: tomato;
+            border: 1px solid black;
+            float: left;
+            margin: 20px;
+            border-radius: 50px;
+        }
+        #cesta{
+            background-color: blueviolet;
+            width: auto;
+            height: 80px;
+            margin-right: 25%;
+        }
+        .tomate img{
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+            width: 70px;
+            border-radius: 50px;
+        }
+        .lechuga{
+            background-color: palegreen;
+        }
+        #huerto{
+            clear: both;
+            width: 90%;
+            height: 400px;
+            background-color: #ccc;
+            border: 5px black dashed;
+            text-align: center;
+            line-height: 340px
+        }
+    </style>
+</head>
+<body>
+    <h1>Drag And Drop JS</h1>
+    <section id="cesta">
+        
+
+        <div class="tomate" draggable="true"></div>
+        <div class="tomate" draggable="true"></div>
+        <div class="tomate" draggable="true"></div>
+        <div class="tomate" draggable="true"></div>
+        <div class="lechuga" draggable="true"></div>
+        <div class="lechuga" draggable="true"></div>
+        <div class="lechuga" draggable="true"></div>
+        <div class="lechuga" draggable="true"></div>
+
+    </section>
+
+
+    <section id="huerto">
+        <h1>Huerto</h1>
+    </section>
+</body>
+</html>

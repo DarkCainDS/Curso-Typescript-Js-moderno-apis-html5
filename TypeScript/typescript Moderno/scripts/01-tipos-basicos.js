@@ -1,0 +1,22 @@
+"use strict";
+//Tipos de datos Basicos
+let texto = "Hola que tal";
+let numero = 10;
+texto = " Hola";
+numero = 12.4;
+numero = 11, 1;
+console.log(numero);
+let verdadero = true;
+verdadero = false;
+console.log(verdadero);
+let normal = "Cualquier cosa";
+normal = true;
+console.log(normal);
+let persona = "Diego Romero";
+persona = "Antonio";
+console.log(persona);
+let cualquiera = "Soy un texto";
+cualquiera = 11;
+cualquiera = true;
+let mi_numero = cualquiera;
+console.log(cualquiera);
